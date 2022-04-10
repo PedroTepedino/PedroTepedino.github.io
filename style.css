@@ -1,0 +1,73 @@
+body
+{
+    background-color: #f5faff;
+    padding: 50px 100px ;
+}
+
+.center 
+{
+    margin: auto;
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.titleBox
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#itemsContainer
+{
+    margin-top: 10%;
+}
+
+.gameTumbnail
+{
+    transition: 0.5s;
+    border: 5px solid black;   
+    border-radius: 10px;
+    text-align: center;
+    width: 1200px;
+    height: 365px;
+    margin: 25px;
+}
+
+.gameTumbnail:hover
+{
+    transition: 0.5s;
+    height: 730px;
+}
+
+#mageMania
+{
+    background-image: url("./Images/MageManiaBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+#mageMania img
+{ 
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+#superDash
+{
+    background-image: url("./Images/SuperDashTumb.png");
+}
+
+.pixelArt
+{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
