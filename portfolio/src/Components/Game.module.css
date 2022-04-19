@@ -1,0 +1,28 @@
+@keyframes appear-animation  {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.game {
+    
+    animation: appear-animation 0.4s cubic-bezier(.28,.69,.67,1.28);
+    transition: 0.2s;
+    background-color: rgba(255, 80, 80, 0.25);
+    width: 512px;
+    height: 256px;
+    display: flex;
+}
+
+.game h2 {
+    margin: auto;
+}
+
+.game.selected {
+    height: 512px;
+}
