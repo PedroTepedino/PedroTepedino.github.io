@@ -9,6 +9,11 @@ const GamesList = () => {
 		<div className={styles['games-list']}>
 			<Game />
 			<Game />
+			<Game />
+			<Game />
+			<Game />
+			<Game />
+			<Game />
 		</div>
 	);
 };

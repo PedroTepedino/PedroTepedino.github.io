@@ -1,0 +1,20 @@
+@keyframes appear-animation {
+	from {
+		transform: scale(0);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.game-contents {
+	animation: appear-animation 0.4s cubic-bezier(0.28, 0.69, 0.67, 1.28);
+	transition: 0.2s;
+	display: flexbox;
+}
+
+.game-contents.description {
+	justify-self: flex-start;
+}

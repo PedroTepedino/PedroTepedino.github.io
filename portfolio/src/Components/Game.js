@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import Card from "../UI/Card";
+import GameContents from "./GameContents";
 
 import styles from "./Game.module.css";
 
@@ -14,9 +15,16 @@ const Game = () => {
 		});
 	};
 
+	let contents = <h1>Logo</h1>;
+
+	if (isSelected)
+	{
+		contents = <GameContents />;
+	}
+
 	return (
 		<Card className={`${styles.game} ${isSelected && styles.selected}`} onClick={clickHandler}>
-			<h2> TEste </h2>
+			{contents}
 		</Card>
 	);
 };
