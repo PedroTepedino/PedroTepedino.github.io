@@ -14,9 +14,10 @@
     animation: appear-animation 0.4s cubic-bezier(.28,.69,.67,1.28);
     transition: 0.2s;
     background-color: rgba(255, 80, 80, 0.25);
-    width: 512px;
+    width: 768px;
     height: 256px;
     display: flex;
+    padding: 50px;
 }
 
 .game h1 {
@@ -24,5 +25,7 @@
 }
 
 .game.selected {
-    height: 512px;
+    transition: 0.2s;
+    /* height: 512px; */
+    height: fit-content; /*Estimate height*/
 }

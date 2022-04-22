@@ -1,0 +1,19 @@
+.game-description {
+	background-color: rgba(145, 215, 255, 0.774);
+	display: felx;
+	text-align: start;
+}
+
+.game-description h1 {
+	padding: 10px;
+}
+
+.game-description ul {
+	background-color: red;
+}
+
+.game-description ul li {
+    background-color: green;
+    width: fit-content;
+    height: 2rem;
+}

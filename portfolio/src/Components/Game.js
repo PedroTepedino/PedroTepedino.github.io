@@ -10,7 +10,7 @@ const Game = () => {
 
 	const clickHandler = (event) => {
         console.log("clkicked");
-		setIsSelected((prev) => {
+		setIsSelected(prev => {
 			return !prev;
 		});
 	};
